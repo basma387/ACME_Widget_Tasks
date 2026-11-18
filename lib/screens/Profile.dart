@@ -22,7 +22,7 @@ class Profile extends StatelessWidget{
                         color: Colors.white,
                       ),
                       onPressed: () {
-                        context.pop();
+                        context.go('/splash');
                       },
                     ),
                     actions: <Widget>[
