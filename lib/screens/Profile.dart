@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class Profile extends StatelessWidget{
     const Profile({super.key});
@@ -21,7 +22,7 @@ class Profile extends StatelessWidget{
                         color: Colors.white,
                       ),
                       onPressed: () {
-                        Navigator.pop(context);
+                        context.pop();
                       },
                     ),
                     actions: <Widget>[

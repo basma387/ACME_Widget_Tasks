@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 int cartedItems=0;
 
@@ -219,7 +220,7 @@ class _ProductsState extends State<Products> {
               leading: IconButton(
                 icon: const Icon(Icons.menu, color: Color(0xff4C5A6A),),
                 onPressed:(){
-                  Navigator.pop(context);
+                  context.pop();
                 }
               ),
               actions:[
